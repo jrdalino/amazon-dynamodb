@@ -165,7 +165,7 @@ $ aws dynamodb scan \
 
 ### Step 1.6: Push Updated Backend Code into the CI/CD Pipeline
 ```
-$ cd ~/environment/MyProjectService-Repository
+$ cd ~/environment/myproject-provider-restapi
 $ git add .
 $ git commit -m "Add new integration to DynamoDB."
 $ git push
